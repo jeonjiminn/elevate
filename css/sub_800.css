@@ -1,0 +1,281 @@
+﻿@charset "utf-8";
+
+@media (min-width:800px){
+			header {width: 100%; height: auto; margin: 0 auto; display: flex; align-items: center; flex-direction: column;}
+
+			header > #box1 {width: 90%; height: 100px; display: flex; align-items: center; justify-content: space-between; position: relative;}
+
+			header > #box1 > #login > .a {width: 25px; height: 25px; cursor: pointer; margin: 0 10px;}
+			header > #box1 > #login > .a:hover {opacity: 0.5;}
+
+			header > #box1 > #logo_box {width: 120px; height: 48px; display: flex; justify-content: space-between; align-items: center;}
+			header > #box1 > #logo_box > #logo {width: 80px; height: 40px;}
+			header > #box1 > #logo_box > #logo > a > img {width: 100%; height: 100%;}	
+			header > #box1 > #logo_box > a > #logo_circle1 {width: 24px; height: 24px; border-radius: 100px; background-color: #404eed; mix-blend-mode: multiply;}
+			header > #box1 > #logo_box > a > #logo_circle2 {width: 24px; height: 24px; border-radius: 100px; background-color: #1fb4ff; position: relative; z-index: 1; margin-top: -8px; mix-blend-mode: multiply;}
+
+			header > #box1 > nav {display: none;}
+			header > #box1 > nav > ul {display: flex;}
+			header > #box1 > nav > ul > li {margin: 10px;}
+			header > #box1 > nav > ul > li > a {text-decoration: none; color: #000; text-transform: capitalize; display: block;}
+			header > #box1 > nav > ul > li > a:hover {color: #404eed;}
+
+			header > #box1 > #login {width: auto; height: 50px; display: flex; align-items: center;}
+			header > #box1 > #login > ul {display: flex; align-items: center;}
+			header > #box1 > #login > ul > li {margin: 10px;}
+			header > #box1 > #login > ul > li > a {text-decoration: none; color: #000; text-transform: capitalize;}
+			header > #box1 > #login > ul > li > a:hover{color: #404eed;}
+
+			header > #box1 > #login > button {background-color: #D9DCFB; color: #404eed; border: none; font-size: 17px; font-weight: bold; width: 130px; height: 49px; border-radius: 30px; margin: 10px 0; cursor: pointer;}
+			header > #box1 > #login > button:hover {background-color: #404eed; color: #fff; transition: all 0.5s ease;}
+
+			header > #box2 {width: 100%; height: 600px; background-color: #F1F4F7; display: flex; justify-content: center; justify-content: center;}
+
+			header > #box2 > #text_box {width: auto; height: auto; text-align: center; display: flex; align-items: center; flex-direction: column; margin-top: 55px;}
+
+			header > #box2 > #text_box > div {display: flex; margin-bottom: 25px;}
+			header > #box2 > #text_box > div h3 {color: #404eed;text-transform: uppercase; margin: 0 20px; font-size: 16px;}
+			header > #box2 > #text_box > h1 {font-size: 75px; line-height: 100%; margin-bottom: 25px; font-weight: bold;}
+			header > #box2 > #text_box > p {font-size: 18px; line-height: 150%;color: #666;}
+
+
+			footer {width: 100%; height: auto; background-color: #fff;}
+			footer > #box1 {width: 90%; height: 300px; background-color: #404eed; margin: 0 auto; border-radius: 25px; display: flex; align-items: center; justify-content: center; position: relative; left: 0; bottom: 80px;}
+
+			footer > #box1 > #photo {width: 40%; height: auto; display: flex; justify-content: center; align-items: center;}
+			footer > #box1 > #photo img {width: 50%; height: auto;}
+
+			footer > #box1 > #text {width: 50%; height: auto; display: flex; flex-direction: column; justify-content: space-evenly;}
+			footer > #box1 > #text h1 {font-size: 4.2vw; color: #fff;}
+			footer > #box1 > #text p {font-size: 1.5vw; color: #fff;}
+
+			footer > #box1 > #text > #search_box {width: 100%; height: 75px; background-color: #fff; border-radius: 50px; display: flex; align-items: center; margin: 20px 0;}
+			footer > #box1 > #text > #search_box > input[type="search"] {background-color: #fff; border: none; outline: none; width: 50%; height: 40px; margin: 0 20px; font-size: 18px;}
+			footer > #box1 > #text > #search_box > button {width: 50%; height: 80%; background-color: #404eed; color: #fff; border: none; border-radius: 50px; font-size: 19px; cursor: pointer; margin: 0 10px;}
+			footer > #box1 > #text > #search_box > button:hover {background-color: #000; color: #fff; transition: all 0.5s ease;}
+
+
+
+			footer > #box2 {width: 90%; height: 400px; margin: 0 auto;  padding: 25px;}
+			footer > #box2 > #logo_box {width: 120px; height: 400px; float: left;}
+			footer > #box2 > #logo_box > #logo {width: 80px; height: 40px; float: right; margin: -50px 0 0 0px;}
+			footer > #box2 > #logo_box > #logo > a > img {width: 100%; height: 100%;}
+			footer > #box2 > #logo_box > #logo_icon {bwidth: 24px; height: 48px; margin-top: 5px;}
+			footer > #box2 > #logo_box > #logo_icon > a > #logo_circle1 {width: 24px; height: 24px; border-radius: 100px; background-color: #404eed; mix-blend-mode: multiply;}
+			footer > #box2 > #logo_box > #logo_icon > a > #logo_circle2 {width: 24px; height: 24px; border-radius: 100px; background-color: #1fb4ff; position: relative; z-index: 1; margin-top: -8px; mix-blend-mode: multiply;}
+
+			footer > #box2 > button {background-color: #D9DCFB; color: #404eed; border: none; font-size: 17px; font-weight: bold; width: 200px; height: 60px; border-radius: 30px; cursor: pointer; margin: 150px 0 0 -130px;}
+			footer > #box2 > button:hover {background-color: #404eed; color: #fff; transition: all 0.5s ease;}
+
+			footer > #box2 > #nav_box {width: 70%; height: 350px; float: right; display: flex;}
+			footer > #box2 > #nav_box > .box {width:250px; height: 330px; margin: 10px;}
+			footer > #box2 > #nav_box > .box > h3 {text-transform: uppercase; font-size: 15px; color: #404eed; margin: -15px 0 0 45px; font-weight: bold;}
+			footer > #box2 > #nav_box > .box > ul > li a {text-decoration: none; color: #000; line-height: 200%; font-size: 18px;}
+			footer > #box2 > #nav_box > .box > ul > li a:hover {color: #404eed;}
+			footer > #box3 {width: 90%; height: 50px; background-color: #F2F4F7; margin: 0 auto; border-radius: 20px 20px 0 0;}
+
+
+			section {width: 95%; height: auto; margin: 0 auto; display: flex; position: relative; left: 0; bottom: 200px;}
+
+			section > #sec1 {width: 70%; height: auto; background-color: #D8DCFD; display: flex; flex-direction: column; justify-content: space-evenly; border-radius: 25px; padding: 20px;}
+
+			section > #sec1 > .box {width: 100%; height: auto; display: flex; flex-direction: column; align-items: center; justify-content: space-between;}
+			section > #sec1 > .box > .text_box {width: 100%; height: 50%; background-color: ; margin: 10px; display: flex; align-items: center; flex-direction: column; justify-content: center;}
+			section > #sec1 > .box > .text_box > .a {width: 95%; height: auto; background-color: #fff; margin: 10px; padding: 10px; border-radius: 25px; display: flex;}
+			section > #sec1 > .box > .text_box > .a > .box {width: 50%; height: 95%; margin: 10px; display: flex; flex-direction: column; align-items: center; justify-content: center;}
+			section > #sec1 > .box > .text_box > .a > .box > img {width: 100%; height: auto; cursor: pointer;}
+			section > #sec1 > .box > .text_box > .a > .box > img:hover {opacity: 0.8;}
+			section > #sec1 > .box > .text_box > .a > .box > button {font-size: 17px; font-family: Eudoxus Sans; font-weight: 800; width: 200px; height: 50px; background-color: #fff; border: 1px solid #EEF0F3; cursor: pointer; border-radius: 50px; color: #404eed; transition: all .15s linear; margin-top: 20px;}
+			section > #sec1 > .box > .text_box > .a > .box > button:hover {background-color: #fff; border: 1px solid #EEF0F3; cursor: pointer; border-radius: 50px; color: #404eed; box-shadow: 0 2px 0 #EEF0F3, 2px 4px 6px #BDBDBD; transition: all .15s linear;}
+
+			section > #sec1 > .box > .text_box > .a > .box > .text {width: 100%; height: 95%; display: flex; flex-direction: column; justify-content: flex-start;}
+			section > #sec1 > .box > .text_box > .a > .box > .text > .box1 {display: flex; font-size: 14px; color: #404eed; margin-top: 10px;}
+			section > #sec1 > .box > .text_box > .a > .box > .text > .box1 > h3 {margin-left: 10px;}
+			section > #sec1 > .box > .text_box > .a > .box > .text > .box2 > h2 {font-size: 2.5vw; font-weight: 800;}
+			section > #sec1 > .box > .text_box > .a > .box > .text > .box2 > h1 {font-size: 2.5vw;}
+			section > #sec1 > .box > .text_box > .a > .box > .text > .box2 > p {font-size: 1.6vw; color: #666;}
+
+			section > #sec1 > .box > .text_box > .a > .box > .text > .box2 > #button {width: 100%; height: auto; display: flex; align-items: center; justify-content: center;}
+			section > #sec1 > .box > .text_box > .a > .box > .text > .box2 > #button > button {font-size: 17px; font-family: Eudoxus Sans; font-weight: 800; width: 200px; height: 50px; background-color: #fff; border: 1px solid #EEF0F3; cursor: pointer; border-radius: 50px; color: #404eed; transition: all .15s linear; margin-top: 20px;}
+			section > #sec1 > .box > .text_box > .a > .box > .text > .box2 > #button > button:hover {background-color: #fff; border: 1px solid #EEF0F3; cursor: pointer; border-radius: 50px; color: #404eed; box-shadow: 0 2px 0 #EEF0F3, 2px 4px 6px #BDBDBD; transition: all .15s linear;}
+
+
+
+			section > #sec1 > .box > .text_box > .b {width: 95%; height: 50%; background-color: #fff; margin: 10px; padding: 10px; border-radius: 25px; display: flex; align-items: center; justify-content: center;}
+
+			section > #sec1 > .box > .text_box > .b > .logo {width: 20%; height: 60%; background-color: #F1F4F7; margin: 10px; border-radius: 10px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease-out;}
+			section > #sec1 > .box > .text_box > .b > .logo > img {width: 100%; height: auto;}
+
+			section > #sec1 > .box > .text_box > .b > .logo:hover {transform: translateY(-8%);}
+
+			section > #sec1 > .box > .text_box > .b > .bb {width: 20%; height: 95%; margin: 10px; display: flex; flex-direction: column; align-items: center;}
+			section > #sec1 > .box > .text_box > .b > .bb > p {font-size: 11px;}
+			section > #sec1 > .box > .text_box > .b > .bb > h5 {margin-top: 10px;}
+
+			section > #sec1 > .box > .text_box > .b > .bb > .photo1 {width: 100%; height: 70%; background-color: #20B3FF; border-radius: 20px; overflow: hidden;}
+			section > #sec1 > .box > .text_box > .b > .bb > .photo1 > img {width: 100%; height: 100%; transition: all 0.3s ease-out;}
+			section > #sec1 > .box > .text_box > .b > .bb > .photo1 > img:hover {transform: scale(1.2); transition: all 0.5s;}
+
+
+			section > #sec1 > .box > .text_box > .b > .bb > .photo2 {width: 100%; height: 70%; background-color: #FF7847; border-radius: 20px; overflow: hidden;}
+			section > #sec1 > .box > .text_box > .b > .bb > .photo2 > img {width: 100%; height: 100%; transition: all 0.3s ease-out;}
+			section > #sec1 > .box > .text_box > .b > .bb > .photo2 > img:hover {transform: scale(1.2); transition: all 0.5s;}
+
+			section > #sec1 > .box > .text_box > .b > .bb > .photo3 {width: 100%; height: 70%; background-color: #26C26F; border-radius: 20px; overflow: hidden;}
+			section > #sec1 > .box > .text_box > .b > .bb > .photo3 > img {width: 100%; height: 100%; transition: all 0.3s ease-out;}
+			section > #sec1 > .box > .text_box > .b > .bb > .photo3 > img:hover {transform: scale(1.2); transition: all 0.5s;}
+
+			section > #sec1 > .box > .text_box > .b > .bb > .photo4 {width: 100%; height: 70%; background-color: #FFC932; border-radius: 20px; overflow: hidden;}
+			section > #sec1 > .box > .text_box > .b > .bb > .photo4 > img {width: 100%; height: 100%; transition: all 0.3s ease-out;}
+			section > #sec1 > .box > .text_box > .b > .bb > .photo4 > img:hover {transform: scale(1.2); transition: all 0.5s;}
+
+			section > #sec1 > .box > .text_box > .b > .bb > .photo5 {width: 100%; height: 70%; background-color: #26C26F; border-radius: 20px; overflow: hidden;}
+			section > #sec1 > .box > .text_box > .b > .bb > .photo5 > img {width: 100%; height: 100%; transition: all 0.3s ease-out;}
+			section > #sec1 > .box > .text_box > .b > .bb > .photo5 > img:hover {transform: scale(1.2); transition: all 0.5s;}
+
+			section > #sec1 > .box > .text_box > .b > .bb > .photo6 {width: 100%; height: 70%; background-color: #FFC932; border-radius: 20px; overflow: hidden;}
+			section > #sec1 > .box > .text_box > .b > .bb > .photo6 > img {width: 100%; height: 100%; transition: all 0.3s ease-out;}
+			section > #sec1 > .box > .text_box > .b > .bb > .photo6 > img:hover {transform: scale(1.2); transition: all 0.5s;}
+
+
+
+
+
+			section > #sec1 > .box > .text_box > .c {width: 95%; height: 100%; background-color: #121722; border-radius: 25px; display: flex; flex-direction: column; align-items: center; justify-content: space-between; padding: 20px; margin-top: 20px;}
+			section > #sec1 > .box > .text_box > .c > h1 {font-size: 2.5vw; color: #fff;}
+			section > #sec1 > .box > .text_box > .c > img {width: 90%; height: 60%; margin-top: 20px;}
+			section > #sec1 > .box > .text_box > .c > #box {width: 90%; height: 90%; color: #fff;}
+			section > #sec1 > .box > .text_box > .c > #box > #text1 {display: flex; text-transform: uppercase; font-size: 1vw; color: #1FB4FF; margin-top: 20px;}
+			section > #sec1 > .box > .text_box > .c > #box > #text1 > h3 {margin-left: 10px;}
+			section > #sec1 > .box > .text_box > .c > #box > h2 {font-size: 2vw;}
+			section > #sec1 > .box > .text_box > .c > #box > p {font-size: 1.5vw; opacity: 0.8;}
+			section > #sec1 > .box > .text_box > .c > #box > .button > button {border: none; background-color: #121722; color: #1FB4FF; font-size: 20px; margin: 10px; cursor: pointer; display: inline-block;}
+			section > #sec1 > .box > .text_box > .c > #box > .button > button:after {border-bottom: 2px solid #1FB4FF; display:block; content: ''; transform: scaleX(0); transition: transform 250ms ease-in-out; transform-origin:  0% 50%;}
+			section > #sec1 > .box > .text_box > .c > #box > .button > button:hover:after {transform: scaleX(1);}
+
+
+			section > #sec1 > .box > .text_box > .cc {width: 95%; height: 90%; background-color: #121722; border-radius: 25px; display: flex; align-items: center; padding: 20px;}
+			section > #sec1 > .box > .text_box > .cc > img {width: 55%; height: auto; margin-right: 10px;}
+			section > #sec1 > .box > .text_box > .cc > #box {width: 45%; height: 90%; background-color: #121722; color: #fff;}
+			section > #sec1 > .box > .text_box > .cc > #box > #text1 {display: flex; color: #1FB4FF; font-size: 1vw;}
+			section > #sec1 > .box > .text_box > .cc > #box > #text1 > h3 {margin-left: 10px;}
+			section > #sec1 > .box > .text_box > .cc > #box > #text2 > h2 {font-size: 2vw; margin-top: 10px;}
+			section > #sec1 > .box > .text_box > .cc > #box > #text2 > p {font-size: 1.5vw; margin-top: 10px; opacity: 0.8;}
+			section > #sec1 > .box > .text_box > .cc > #box > #text3 {display: flex; margin-top: 30px;}
+			section > #sec1 > .box > .text_box > .cc > #box > #text3 > .box {width: 50%;}
+			section > #sec1 > .box > .text_box > .cc > #box > #text3 > .box > p {font-size: 14px; opacity: 0.8;}
+			section > #sec1 > .box > .text_box > .cc > #box > .button > button {border: none; background-color: #121722; color: #1FB4FF; font-size: 20px; margin: 10px; cursor: pointer; display: inline-block;}
+			section > #sec1 > .box > .text_box > .cc > #box > .button > button:after {border-bottom: 2px solid #1FB4FF; display:block; content: ''; transform: scaleX(0); transition: transform 250ms ease-in-out; transform-origin:  0% 50%;}
+			section > #sec1 > .box > .text_box > .cc > #box > .button > button:hover:after {transform: scaleX(1);}
+
+			section > #sec1 > .box2 {width: 100%; height: 1300px; display: flex; align-items: center; justify-content: space-between;}	
+			section > #sec1 > .box2 > .text_box {width: 50%; height: 100%; margin: 10px; display: flex; flex-direction: column; align-items: center;}
+			section > #sec1 > .box2 > .text_box > .d {width: 95%; height: 40%; margin: 10px; background-color: #fff; border-radius: 25px; padding: 20px;}
+			section > #sec1 > .box2 > .text_box > .d img {width: 100%; height: auto; cursor: pointer;}
+			section > #sec1 > .box2 > .text_box > .d img:hover {opacity: 0.8;}
+			section > #sec1 > .box2 > .text_box > .d h1 {font-size: 20px; margin-bottom: 15px;}
+			section > #sec1 > .box2 > .text_box > .d h4 {color: #404eed; text-transform: uppercase; font-size: 14px; font-weight: 800; margin-bottom: 10px;}
+			section > #sec1 > .box2 > .text_box > .d > button {color: #404eed; display:inline-block; margin:0; text-transform:uppercase; border:none; background-color:#fff; cursor:pointer; font-size: 20px; font-weight: 800;}
+
+			section > #sec1 > .box2 > .text_box > .d > button:after {display:block; content: ''; border-bottom: solid 3px #404eed; transform: scaleX(0); transition: transform 250ms ease-in-out; transform-origin:  0% 50%;}
+
+			section > #sec1 > .box2 > .text_box > .d > button:hover:after {transform: scaleX(1);}
+
+
+			section > #sec1 > .box2 > .text_box > .e {width: 95%; height: 60%; background-color: #fff; margin: 10px; border-radius: 25px; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px;}
+			section > #sec1 > .box2 > .text_box > .e > #box1 {width: 100%; height: 40%;}
+			section > #sec1 > .box2 > .text_box > .e > #box1 > h1 {font-size: 2.5vw; margin-top: 25px;}
+			section > #sec1 > .box2 > .text_box > .e > #box1 > p {font-size: 1.5vw; color: #666; margin-top: 10px;}
+			section > #sec1 > .box2 > .text_box > .e > #box1 > .text {display: flex; margin-top: 20px; cursor: pointer;}
+			section > #sec1 > .box2 > .text_box > .e > #box1 > .text:hover {color: #404eed;}
+			section > #sec1 > .box2 > .text_box > .e > #box1 > .text > h2 {font-size: 1.5vw; margin-left: 10px;}
+			section > #sec1 > .box2 > .text_box > .e > #box1 > .text:hover {color: #404eed;}
+
+			section > #sec1 > .box2 > .text_box > .e > #box2 {width: 100%; height: 55%; display: flex; flex-direction: column;}
+			section > #sec1 > .box2 > .text_box > .e > #box2  > h3 {margin-bottom: 10px;}
+			section > #sec1 > .box2 > .text_box > .e > #box2  > #input_box {display: flex; flex-direction: column; align-items: center;}	
+			section > #sec1 > .box2 > .text_box > .e > #box2  > #input_box > .text {border: none; outline: none; border-radius: 20px; background-color: #F1F4F7; padding: 10px; margin: 10px; font-family: Eudoxus Sans;}
+
+			section > #sec1 > .box2 > .text_box > .e > #box2  > #input_box > input {margin: 10px; padding: 10px;}
+			section > #sec1 > .box2 > .text_box > .e > #box2  > #input_box > input[name="name"] {width: 90%; height: 40px; border: none; background-color: #F1F4F7; outline: none; border-radius: 25px;}
+			section > #sec1 > .box2 > .text_box > .e > #box2  > #input_box > input[name="email"] {width: 90%; height: 40px; border: none; background-color: #F1F4F7; outline: none; border-radius: 25px;}
+			section > #sec1 > .box2 > .text_box > .e > #box2  > #input_box > input[name="company"] {width: 90%; height: 40px; border: none; background-color: #F1F4F7; outline: none; border-radius: 25px;}
+
+			section > #sec1 > .box2 > .text_box > .e > #box2  > div {margin-bottom: 10px;}
+			section > #sec1 > .box2 > .text_box > .e > #box2  > div > span {font-size: 14px;}
+			section > #sec1 > .box2 > .text_box > .e > #box2 > button {background-color: #404eed; color: #fff; border: none; border-radius: 50px; font-size: 18px; width: 40%; height: 100px; cursor: pointer; font-size: 12px;}
+			section > #sec1 > .box2 > .text_box > .e > #box2 > button:hover {background-color: #000; transition: all 0.5s;}
+
+
+			section > #sec1 > .box2 > .text_box > .ee {width: 95%; height: 60%; background-color: #404eed; margin: 10px; display: flex; align-items: center; flex-direction: column; justify-content: flex-end; border-radius: 25px; padding: 20px;}
+			section > #sec1 > .box2 > .text_box > .ee > #text {width: 100%; height: auto; margin-bottom: 200px;}
+			section > #sec1 > .box2 > .text_box > .ee > #text > div {width: 190px; height: auto; display: flex; justify-content: space-between;}
+			section > #sec1 > .box2 > .text_box > .ee > #text > div h3 {font-size: 1.5vw; margin-left: 20px; color: #1FB4FF;}
+			section > #sec1 > .box2 > .text_box > .ee > #text h1 {font-size: 3vw; color: #fff; font-weight: 800;}
+			section > #sec1 > .box2 > .text_box > .ee img {width: 80%; height: auto;}
+			section > #sec1 > .box2 > .text_box > .ee > #search_box {width: 95%; height: 50px; background-color: #fff; display: flex; justify-content: space-around; padding: 10px; border-radius: 50px; position: relative; left: 0; bottom: 150px;}
+			section > #sec1 > .box2 > .text_box > .ee > #search_box > input[type="search"] {background-color: #fff; border: none; outline: none; font-size: 1vw; width: 50%; margin-left: 10px;}
+			section > #sec1 > .box2 > .text_box > .ee > #search_box > button {background-color: #404eed; color: #fff; border: none; border-radius: 50px; font-size: 1vw; width: 40%; cursor: pointer; margin-left: 25px;}
+			section > #sec1 > .box2 > .text_box > .ee > #search_box > button:hover {background-color: #000; transition: all 0.5s;}
+
+
+
+			section > #sec2 {width: 30%; height: 2200px; background-color: #404eed; display: flex; flex-direction: column; align-items: center; justify-content: center; border-radius: 25px; overflow: hidden; margin: 0 0 0 10px;}
+
+			section > #sec2 > .box1 {width: 90%; height: 400px; margin: 10px;}
+			section > #sec2 > .box1 > #a {width: 100%; height: 10%; padding: 20px; display: flex; flex-direction: column; justify-content: center;}
+			section > #sec2 > .box1 > #a > div {display: flex;}
+			section > #sec2 > .box1 > #a > div > h3 {color: #1FB4FF; margin-left: 10px; font-size: 1.5vw;}
+			section > #sec2 > .box1 > #a > h1 {color: #fff; margin-top: 10px; font-size: 2vw;}
+
+			section > #sec2 > .box1 > #b {width: 100%; height: 90%; padding: 10px; display: flex; flex-direction: column; align-items: center; justify-content: center;}
+			section > #sec2 > .box1 > #b > .box {width: 100%; height: 25%; margin: 5px; display: flex;}
+			section > #sec2 > .box1 > #b > .box > .img {width: 30%; height: 100%; background-color: #fff; border-radius: 50px; overflow: hidden;}
+			section > #sec2 > .box1 > #b > .box > .img > img {width: 100%; height: 100%; border-radius: 50px; transition: all 0.3s ease-out; cursor: pointer;}
+			section > #sec2 > .box1 > #b > .box > .img > img:hover {transform: scale(0.85);}
+
+			section > #sec2 > .box1 > #b > .box > .text {width: 65%; height: 100%; margin-left: 10px; display: flex; flex-direction: column; justify-content: center; cursor: pointer; border-bottom: 1px solid #ddd;}
+			section > #sec2 > .box1 > #b > .box > .text h3 {font-size: 1vw; color: #1FB4FF;}
+			section > #sec2 > .box1 > #b > .box > .text h1 {font-size: 1.2vw; color: #fff;}
+
+			section > #sec2 > .box2 {width: 90%; height: 900px; margin: 0px;}
+			section > #sec2 > .box2 > #c {width: 100%; height: 15%; padding: 20px;}
+			section > #sec2 > .box2 > #c > div {display: flex;}
+			section > #sec2 > .box2 > #c > div > h3 {color: #1FB4FF; margin-left: 10px; font-size: 1.5vw;}
+			section > #sec2 > .box2 > #c > h1 {color: #fff; margin-top: 10px; font-size: 2vw;}
+
+			section > #sec2 > .box2 > #d {width: 100%; height: 80%; padding: 20px; display: flex; flex-direction: column; justify-content: center; align-items: center;}
+			section > #sec2 > .box2 > #d > .box {width: 100%; height: 20%; margin: 5px;  display: flex;}
+			section > #sec2 > .box2 > #d > .box > .img {width: 30%; height: 100%; display: flex; align-items: center; justify-content: center;}
+			section > #sec2 > .box2 > #d > .box > .text {width: 70%; height: 100%; display: flex; flex-direction: column; justify-content: center; margin-left: 10px;}
+			section > #sec2 > .box2 > #d > .box > .text > h3 {color: #fff; font-size: 1.5vw; opacity: 0.9;}
+
+
+
+			section > #sec2 > .box4 {width: 90%; height: 100px; margin: 10px; padding: 20px;}
+			section > #sec2 > .box4 > div {width: 100%; height: 50px; background-color: #fff; border-radius: 30px; display: flex; justify-content: space-between; align-items: center;}
+			section > #sec2 > .box4 > div > input {width: 80%; height: 50%; background-color: #fff; outline: none; border: none; margin-left: 10px;}
+			section > #sec2 > .box4 > div > button {width: 15%; height: 80%; background-color: #404eed; outline: none; border: none; border-radius: 100px; margin-right: 5px; overflow: hidden; display: flex; align-items: center; justify-content: center; cursor: pointer;}
+			section > #sec2 > .box4 > div > button:hover {background-color: #000; transition: all 0.3s ease-out;}
+			section > #sec2 > .box4 > div > button > img {width: 70%; height: 70%;}
+
+			section > #sec2 > .box5 {width: 90%; height: 900px; margin: 10px; padding: 20px;}
+			section > #sec2 > .box5 > #e {width: 100%; height: 60%;}
+			section > #sec2 > .box5 > #e > .text {width: 100%; height: 15%;}
+			section > #sec2 > .box5 > #e > .text > div {display: flex;}
+			section > #sec2 > .box5 > #e > .text > div > h3 {color: #1FB4FF; margin-left: 10px; font-size: 14px;}
+
+			section > #sec2 > .box5 > #e > .box {width: 100%; height: 70%; display: flex; flex-direction: column; flex-flow: row wrap; justify-content: center;}
+			section > #sec2 > .box5 > #e > .box > button {border: 2px solid #fff; width: 100px; height: 40px; border-radius: 30px; background-color: #404eed; color: #fff; font-size: 14px; margin: 10px; cursor: pointer;}
+			section > #sec2 > .box5 > #e > .box > button:hover {background-color: #000; transition: all 0.5s ease-out;}
+
+			section > #sec2 > .box5 > #f {width: 100%; height: 20%;}
+			section > #sec2 > .box5 > #f > .text {width: 100%; height: 30%;}
+			section > #sec2 > .box5 > #f > .text > div {display: flex;}
+			section > #sec2 > .box5 > #f > .text > div > h3 {color: #1FB4FF; margin-left: 10px; font-size: 14px;}
+
+			section > #sec2 > .box5 > #f > .box {width: 100%; height: 40%; display: flex; align-items: center; justify-content: center;}
+			section > #sec2 > .box5 > #f > .box > .sns {width: 20%; height: 50%; background-color: #fff; margin: 7px; border-radius: 50px; overflow: hidden; display: flex; align-items: center; justify-content: center; cursor: pointer;}
+			section > #sec2 > .box5 > #f > .box > .sns > img {width: 50%; height: 50%; transition: all 0.3s ease-out;}
+			section > #sec2 > .box5 > #f > .box > .sns > img:hover {transform: translateY(-8%);}
+		}
